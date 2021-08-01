@@ -19,7 +19,10 @@
         <module>changgou-service-goods-api</module>
         <module>changgou-service-content-api</module>
         <module>changgou-service-search-api</module>
+        <module>changgou-web-item-api</module>
         <module>changgou-service-user-api</module>
+        <module>changgou-service-order-api</module>
+        <module>changgou-service-seckill-api</module>
     </modules>
 
     <dependencies>
