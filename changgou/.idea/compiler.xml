@@ -21,6 +21,7 @@
         <module name="changgou-service-content-api" />
         <module name="changgou-common-db" />
         <module name="code-template" />
+        <module name="changgou-gateway-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="changgou-common-db" target="1.8" />
       <module name="changgou-eureka" target="1.8" />
       <module name="changgou-gateway" target="1.8" />
+      <module name="changgou-gateway-web" target="8" />
       <module name="changgou-parent" target="1.8" />
       <module name="changgou-servcie-canal" target="1.8" />
       <module name="changgou-service" target="1.8" />
@@ -51,6 +53,7 @@
       <module name="changgou-common" options="-parameters" />
       <module name="changgou-common-db" options="-parameters" />
       <module name="changgou-eureka" options="-parameters" />
+      <module name="changgou-gateway-web" options="-parameters" />
       <module name="changgou-servcie-canal" options="-parameters" />
       <module name="changgou-service-content" options="-parameters" />
       <module name="changgou-service-content-api" options="-parameters" />
