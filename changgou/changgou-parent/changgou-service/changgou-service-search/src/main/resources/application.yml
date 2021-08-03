@@ -1,12 +1,15 @@
 server:
   port: 18085
 spring:
+  main:
+    allow-bean-definition-overriding: true
   application:
     name: search
   data:
     elasticsearch:
       cluster-name: my-application
       cluster-nodes: 192.168.58.132:9300
+
 eureka:
   client:
     service-url:

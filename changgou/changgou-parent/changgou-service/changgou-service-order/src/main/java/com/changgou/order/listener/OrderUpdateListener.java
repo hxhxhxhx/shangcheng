@@ -28,15 +28,15 @@ public class OrderUpdateListener {
 
     @RabbitHandler
     public void handlerData(String msg) {
-        //1.接收消息(有订单的ID  有transaction_id )
-        Map<String, String> map = JSON.parseObject(msg, Map.class);
-        //2.更新对营的订单的状态
-        if (map != null) {
-            if (map.get("return_code").equalsIgnoreCase("success")) {
-                orderService.updateStatus(map.get("out_trade_no"), map.get("transaction_id"));
-            } else {
-                //删除订单 支付失败.....
-            }
-        }
+//        //1.接收消息(有订单的ID  有transaction_id )
+//        Map<String, String> map = JSON.parseObject(msg, Map.class);
+//        //2.更新对营的订单的状态
+//        if (map != null) {
+//            if (map.get("return_code").equalsIgnoreCase("success")) {
+//                orderService.updateStatus(map.get("out_trade_no"), map.get("transaction_id"));
+//            } else {
+//                //删除订单 支付失败.....
+//            }
+//        }
     }
 }
